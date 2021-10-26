@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11a71ba4-f357-434f-b94e-bc85865a024c" name="Default Changelist" comment="" />
+    <list default="true" id="11a71ba4-f357-434f-b94e-bc85865a024c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/ClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestClassInitWhen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestClassLoaderProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestClassLoaderProcess.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestTypeOfClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learning/cn/yangbian/reflection/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/yangbian/reflection/Reflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/Reflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/yangbian/reflection/TestClass.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +31,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -23,6 +43,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ycgnJeFDQV88gItyo1pclfU2eG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,14 +55,21 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/yangbian/reflection" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="plugins.junitgenerator.application" />
   </component>
-  <component name="RunManager" selected="Application.TestClass">
-    <configuration name="Reflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.yangbian.reflection.Reflect" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Ep\src\cn\yangbian\reflection" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClassLoaderTest">
+    <configuration name="ClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yangbian.reflection.ClassLoaderTest" />
       <module name="Learning" />
       <extension name="coverage">
         <pattern>
@@ -66,10 +94,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClassInitWhen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yangbian.reflection.TestClassInitWhen" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yangbian.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestClassLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yangbian.reflection.TestClassLoader" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yangbian.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTypeOfClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.yangbian.reflection.TestTypeOfClass" />
+      <module name="Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.yangbian.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassLoaderTest" />
+        <item itemvalue="Application.TestClassInitWhen" />
+        <item itemvalue="Application.TestClassLoader" />
+        <item itemvalue="Application.TestTypeOfClass" />
         <item itemvalue="Application.TestClass" />
-        <item itemvalue="Application.Reflect" />
       </list>
     </recent_temporary>
   </component>
@@ -86,31 +156,83 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633918053144">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1633918053144" />
-    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1632732927193">
+    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1635230714345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1632732927193" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1632738694477">
+    <state x="765" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1635230714345" />
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom" timestamp="1635240709006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632738694477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1632738694477">
+    <state width="1877" height="271" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635240709006" />
+    <state width="1877" height="271" key="GridCell.Tab.0.center" timestamp="1635240709005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632738694477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1632738694477">
+    <state width="1877" height="271" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635240709005" />
+    <state width="1877" height="271" key="GridCell.Tab.0.left" timestamp="1635240709005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632738694477" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1632738694477">
+    <state width="1877" height="271" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635240709005" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right" timestamp="1635240709006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632738694477" />
+    <state width="1877" height="271" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635240709006" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1635237638829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1635237638829" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1635237638829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1635237638829" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1635237638829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1635237638829" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1635237638829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1635237638829" />
     <state x="440" y="97" key="SettingsEditor" timestamp="1633916385219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -119,5 +241,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1633916541788" />
+    <state x="580" y="246" width="759" height="548" key="find.popup" timestamp="1635241025157">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="246" width="759" height="548" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1635241025157" />
+    <state x="616" y="243" key="run.anything.popup" timestamp="1635230936627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1635230936627" />
   </component>
 </project>

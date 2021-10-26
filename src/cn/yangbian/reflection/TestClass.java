@@ -10,11 +10,26 @@ public class TestClass {
         //方式二：通过forname获得
         Class c2 = Class.forName("cn.yangbian.reflection.Student");
         System.out.println(c2.hashCode());
-        //方式一：通过对象获得
+        //方式三：通过类名.class获得
+        Class<Student> c3 = Student.class;
+        System.out.println(c3.hashCode());
+        //方式四：基本内置类型的包装类都有一个Type属性
+        Class<Integer> c4 = Integer.TYPE;
+        System.out.println(c4);
+        //获得父类类型
+        Class c5 = c1.getSuperclass();
+        System.out.println(c5);
     }
 }
 class Person{
-   public String name;
+    public Person() {
+    }
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public String name;
 
     public String getName() {
         return name;
